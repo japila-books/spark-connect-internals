@@ -96,6 +96,10 @@ extra:
   book:
     title: Spark Connect
     spark_core: https://books.japila.pl/apache-spark-internals
+  grpc:
+    version: 1.56.0
+    docs: https://grpc.io/docs/languages/java/
+    api: https://grpc.github.io/grpc-java/javadoc
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jaceklaskowski
@@ -112,11 +116,22 @@ extra:
     github: https://github.com/apache/spark/tree/v3.5.3
     jira: https://issues.apache.org/jira/browse
 
-# The sections with ... use awesome-pages plugin
-# https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
-# Review .pages for setup
 nav:
   - index.md
   - Internals:
     - overview.md
+    - CommandPlugin.md
+    - ExecuteHolder.md
+    - ExecuteThreadRunner.md
+    - ExpressionPlugin.md
+    - RelationPlugin.md
+    - SimpleSparkConnectService.md
+    - SparkConnectAnalyzeHandler.md
+    - SparkConnectExecutionManager.md
+    - SparkConnectInterceptorRegistry.md
+    - SparkConnectPlanner.md
+    - SparkConnectPlugin.md
+    - SparkConnectServer.md
+    - SparkConnectService.md
+    - SparkConnectStreamHandler.md
     - logging.md
