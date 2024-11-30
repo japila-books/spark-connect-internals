@@ -4,7 +4,7 @@
 
 ## Contract
 
-### <span id="transform"> transform
+### Transform Relation { #transform }
 
 ```scala
 transform(
@@ -14,7 +14,7 @@ transform(
 
 Used when:
 
-* `SparkConnectPlanner` is requested to [transformRelationPlugin](SparkConnectPlanner.md#transformRelationPlugin)
+* `SparkConnectPlanner` is requested to [handle plugins for Spark Connect relation types](SparkConnectPlanner.md#transformRelationPlugin)
 
 ## Implementations
 

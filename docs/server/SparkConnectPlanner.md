@@ -4,12 +4,13 @@
 
 `SparkConnectPlanner` takes the following to be created:
 
-* <span id="session"> `SparkSession`
+* <span id="sessionHolder"> [SessionHolder](SessionHolder.md)
 
 `SparkConnectPlanner` is created when:
 
-* `SparkConnectAnalyzeHandler` is requested to [process a request](SparkConnectAnalyzeHandler.md#process)
-* `SparkConnectStreamHandler` is requested to [handlePlan](SparkConnectStreamHandler.md#handlePlan) and [handleCommand](SparkConnectStreamHandler.md#handleCommand)
+* `ExecuteThreadRunner` is requested to [handle a command](ExecuteThreadRunner.md#handleCommand)
+* `SparkConnectPlanExecution` is requested to [handle a plan](SparkConnectPlanExecution.md#handlePlan)
+* `SparkConnectAnalyzeHandler` is requested to [process an analyze plan request](SparkConnectAnalyzeHandler.md#process)
 
 ## transformRelation { #transformRelation }
 
@@ -24,10 +25,11 @@ transformRelation(
 
 `transformRelation` is used when:
 
+* `SparkConnectPlanExecution` is requested to [handlePlan](SparkConnectPlanExecution.md#handlePlan)
+* `SparkConnectPlanner` is requested to _do many things_
 * `SparkConnectAnalyzeHandler` is requested to [process a request](SparkConnectAnalyzeHandler.md#process)
-* `SparkConnectStreamHandler` is requested to [handlePlan](SparkConnectStreamHandler.md#handlePlan)
 
-### transformRelationPlugin { #transformRelationPlugin }
+### Handle Plugins for Spark Connect Relation Types { #transformRelationPlugin }
 
 ```scala
 transformRelationPlugin(

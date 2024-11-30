@@ -8,4 +8,4 @@
 
 `SparkConnectAnalyzeHandler` is created when:
 
-* `SparkConnectService` is requested to [handle analyzePlan request](SparkConnectService.md#analyzePlan)
+* `SparkConnectService` is requested to [handle an analyze plan request](SparkConnectService.md#analyzePlan)
