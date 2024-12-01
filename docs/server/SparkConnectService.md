@@ -2,7 +2,10 @@
 
 `SparkConnectService` is a `BindableService` ([gRPC]({{ grpc.api }}/io/grpc/BindableService.html)).
 
-`SparkConnectService` can be started as a gRPC service using [startGRPCService](#startGRPCService).
+`SparkConnectService` is [started](#start) as a [gRPC service](#startGRPCService) for the following:
+
+* Apache Spark applications (as a [Spark driver plugin](SparkConnectPlugin.md#driverPlugin))
+* On command line as a [SparkConnectServer](SparkConnectServer.md) standalone application
 
 ## Creating Instance
 
@@ -12,7 +15,7 @@
 
 `SparkConnectService` is created when:
 
-* `SparkConnectService` is requested to [startGRPCService](#startGRPCService)
+* `SparkConnectService` is requested to [start a gRPC service](#startGRPCService)
 
 ## gRPC Server { #server }
 
