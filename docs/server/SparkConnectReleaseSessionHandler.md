@@ -1,0 +1,3 @@
+# SparkConnectReleaseSessionHandler
+
+`SparkConnectReleaseSessionHandler` is...FIXME
