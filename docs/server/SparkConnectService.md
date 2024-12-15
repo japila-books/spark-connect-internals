@@ -7,6 +7,8 @@
 * Apache Spark applications (as a [Spark driver plugin](SparkConnectPlugin.md#driverPlugin))
 * On command line as a [SparkConnectServer](SparkConnectServer.md) standalone application
 
+Right after `SparkConnectService` has been [started](#start), [a `SparkListenerConnectServiceStarted` event is posted](#postSparkConnectServiceStarted) with all the network connectivity information.
+
 ## Creating Instance
 
 `SparkConnectService` takes the following to be created:
@@ -30,6 +32,8 @@ start(
 
 `start` [starts the gRPC service](#startGRPCService) and then [creates a listener and the UI](#createListenerAndUI).
 
+In the end, `start` [posts a SparkListenerConnectServiceStarted event](#postSparkConnectServiceStarted).
+
 ---
 
 `start` is used when:
@@ -47,15 +51,21 @@ startGRPCService(): Unit
 
 Configuration Property | Default Value
 -----------------------|--------------
- `spark.connect.grpc.debug.enabled` | `true`
- `spark.connect.grpc.binding.port` | `15002`
- `spark.connect.grpc.maxInboundMessageSize` | `128 * 1024 * 1024`
+ [spark.connect.grpc.debug.enabled](configuration-properties.md#spark.connect.grpc.debug.enabled) | `true`
+ [spark.connect.grpc.binding.port](configuration-properties.md#spark.connect.grpc.binding.port) | `15002`
+ [spark.connect.grpc.maxInboundMessageSize](configuration-properties.md#spark.connect.grpc.maxInboundMessageSize) | `128 * 1024 * 1024`
 
 `startGRPCService` builds a `NettyServerBuilder` with the `spark.connect.grpc.binding.port` and a [SparkConnectService](SparkConnectService.md).
 
 `startGRPCService` [registers interceptors](SparkConnectInterceptorRegistry.md#chainInterceptors).
 
 `startGRPCService` [builds the server](#server) and starts it.
+
+If successful, prints out the following INFO message to the logs:
+
+```text
+Successfully started service [serviceName] on port [port].
+```
 
 ### createListenerAndUI { #createListenerAndUI }
 
@@ -65,6 +75,14 @@ createListenerAndUI(
 ```
 
 `createListenerAndUI` creates a [SparkConnectServerTab](SparkConnectServerTab.md) (for `spark.ui.enabled` enabled).
+
+### Post SparkListenerConnectServiceStarted { #postSparkConnectServiceStarted }
+
+```scala
+postSparkConnectServiceStarted(): Unit
+```
+
+`postSparkConnectServiceStarted` posts a `SparkListenerConnectServiceStarted` event (with this server's [hostAddress](#hostAddress), port and the current time)
 
 ## Handle Analyze Plan Request { #analyzePlan }
 
