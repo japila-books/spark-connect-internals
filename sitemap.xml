@@ -17,6 +17,22 @@
          <lastmod>2024-12-15</lastmod>
     </url>
     <url>
+         <loc>https://books.japila.pl/spark-connect-internals/client/Builder/</loc>
+         <lastmod>2024-12-15</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/client/Configuration/</loc>
+         <lastmod>2024-12-15</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/client/ConnectRepl/</loc>
+         <lastmod>2024-12-15</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/client/SparkConnectClient/</loc>
+         <lastmod>2024-12-15</lastmod>
+    </url>
+    <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/</loc>
          <lastmod>2024-12-15</lastmod>
     </url>
@@ -49,6 +65,10 @@
          <lastmod>2024-12-15</lastmod>
     </url>
     <url>
+         <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectAddArtifactsHandler/</loc>
+         <lastmod>2024-12-15</lastmod>
+    </url>
+    <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectAnalyzeHandler/</loc>
          <lastmod>2024-12-15</lastmod>
     </url>
@@ -74,6 +94,10 @@
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectPlugin/</loc>
+         <lastmod>2024-12-15</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectReleaseSessionHandler/</loc>
          <lastmod>2024-12-15</lastmod>
     </url>
     <url>
