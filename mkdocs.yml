@@ -101,6 +101,8 @@ extra:
     version: 1.56.0
     docs: https://grpc.io/docs/languages/java/
     api: https://grpc.github.io/grpc-java/javadoc
+  java:
+    version: 17
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jaceklaskowski
@@ -113,8 +115,8 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@jaceklaskowski
   spark:
-    version: 3.5.3
-    github: https://github.com/apache/spark/tree/v3.5.3
+    version: 4.0.0-SNAPSHOT
+    github: https://github.com/apache/spark/tree/master
     jira: https://issues.apache.org/jira/browse
 
 nav:
