@@ -1,0 +1,3 @@
+# SparkConnectSessionManager
+
+`SparkConnectSessionManager` is...FIXME
