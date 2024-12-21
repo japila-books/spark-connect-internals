@@ -5,14 +5,6 @@
          <lastmod>2024-12-21</lastmod>
     </url>
     <url>
-         <loc>https://books.japila.pl/spark-connect-internals/SQLExecution/</loc>
-         <lastmod>2024-12-21</lastmod>
-    </url>
-    <url>
-         <loc>https://books.japila.pl/spark-connect-internals/SparkSession/</loc>
-         <lastmod>2024-12-21</lastmod>
-    </url>
-    <url>
          <loc>https://books.japila.pl/spark-connect-internals/logging/</loc>
          <lastmod>2024-12-21</lastmod>
     </url>
@@ -130,6 +122,18 @@
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/configuration-properties/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/sql/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/sql/SQLExecution/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/sql/SparkSession/</loc>
          <lastmod>2024-12-21</lastmod>
     </url>
 </urlset>
