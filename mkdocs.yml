@@ -124,5 +124,7 @@ nav:
   - Internals:
     - overview.md
     - logging.md
+    - SparkSession.md
+    - SQLExecution.md
   - ... | server/**.md
   - ... | client/**.md
