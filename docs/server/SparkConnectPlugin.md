@@ -1,8 +1,10 @@
 # SparkConnectPlugin
 
-`SparkConnectPlugin` is a Spark driver plugin (a `SparkPlugin` ([Apache Spark]({{ book.spark_core }}/plugins/SparkPlugin)) with the [driver-side component](#driverPlugin) only).
+`SparkConnectPlugin` is a Spark driver plugin that [starts a SparkConnectService](SparkConnectService.md#start) upon initialization.
 
-`SparkConnectPlugin` is the main entry point for Spark Connect in Apache Spark applications.
+`SparkConnectPlugin` is a `SparkPlugin` ([Spark Core]({{ book.spark_core }}/plugins/SparkPlugin)) with the [driver-side component](#driverPlugin) only.
+
+`SparkConnectPlugin` can be installed into Spark applications using `spark.plugins` ([Spark Core]({{ book.spark_core }}/configuration-properties/#spark.plugins)) configuration property (e.g., [Spark Connect Shell](../spark-connect-shell.md)).
 
 ## Driver-Side Component { #driverPlugin }
 
@@ -12,7 +14,7 @@
     driverPlugin(): DriverPlugin
     ```
 
-    `driverPlugin` is part of the `SparkPlugin` ([Apache Spark]({{ book.spark_core }}/plugins/SparkPlugin/#driverPlugin)) abstraction.
+    `driverPlugin` is part of the `SparkPlugin` ([Spark Core]({{ book.spark_core }}/plugins/SparkPlugin/#driverPlugin)) abstraction.
 
 `driverPlugin` creates a new `DriverPlugin` (Apache Spark) that does the following:
 
