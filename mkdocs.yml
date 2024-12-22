@@ -124,6 +124,7 @@ nav:
   - Internals:
     - overview.md
     - logging.md
+    - spark-connect-shell.md
   - ... | server/**.md
   - ... | client/**.md
   - ... | sql/**.md
