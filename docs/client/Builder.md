@@ -18,4 +18,4 @@ build(): SparkConnectClient
 
 `build` is used when:
 
-* `ConnectRepl` standalone application is [launched on command line](ConnectRepl.md#doMain)
+* `ConnectRepl` standalone application is [launched on command line](../jvm/ConnectRepl.md#doMain)

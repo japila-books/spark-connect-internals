@@ -127,3 +127,4 @@ nav:
   - ... | server/**.md
   - ... | client/**.md
   - ... | sql/**.md
+  - ... | jvm/**.md
