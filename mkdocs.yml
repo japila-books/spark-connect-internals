@@ -86,6 +86,10 @@ plugins:
   - macros
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-meta-plugin
   - meta
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
+  - tags:
+      tags_allowed:
+        - DeveloperApi
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-typeset-plugin
   - typeset
 

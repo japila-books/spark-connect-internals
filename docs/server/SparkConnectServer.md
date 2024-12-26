@@ -2,7 +2,7 @@
 title: SparkConnectServer
 ---
 
-# SparkConnectServer Standalone Application
+# SparkConnectServer &mdash; Spark Connect Server Standalone Application
 
 `SparkConnectServer` is a standalone application to [start a Spark Connect server](#main) from command line.
 

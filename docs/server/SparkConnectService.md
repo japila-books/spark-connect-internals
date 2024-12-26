@@ -30,7 +30,7 @@ start(
   sc: SparkContext): Unit
 ```
 
-`start` [starts the gRPC service](#startGRPCService) and then [creates a listener and the UI](#createListenerAndUI).
+`start` [starts a gRPC service](#startGRPCService) (with a [SparkConnectService](SparkConnectService.md)) and then [creates a listener and the UI](#createListenerAndUI).
 
 In the end, `start` [posts a SparkListenerConnectServiceStarted event](#postSparkConnectServiceStarted).
 
