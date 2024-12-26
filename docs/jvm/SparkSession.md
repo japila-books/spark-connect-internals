@@ -77,14 +77,32 @@ executeInternal(
 
 With an `ExecutePlanResponse`, `executeInternal` [processRegisteredObservedMetrics](#processRegisteredObservedMetrics).
 
-## withLocalConnectServer { #withLocalConnectServer }
+## Run Local Connect Server to Execute Code { #withLocalConnectServer }
 
 ```scala
 withLocalConnectServer[T](
   f: => T): T
 ```
 
-`withLocalConnectServer`...FIXME
+`withLocalConnectServer` finds the Spark remote URL based on the following:
+
+1. `spark.remote` in the [sparkOptions](#sparkOptions)
+1. `spark.remote` in the system properties (`-D`)
+1. `SPARK_REMOTE` environment variable
+
+`withLocalConnectServer` makes sure that the following are all met before starting up a new Spark Connect server:
+
+* The [server](#server) process has not been assigned yet
+* The Spark remote URL starts with `local`
+* `SPARK_HOME` environment variable is defined and is a directory with `sbin/start-connect-server.sh` shell script
+
+`withLocalConnectServer` starts a new Spark Connect server with the following command:
+
+```text
+$SPARK_HOME/sbin/start-connect-server.sh --master [localURL] [sparkOptions]
+```
+
+In the end, `withLocalConnectServer` executes the given `f` block.
 
 ---
 

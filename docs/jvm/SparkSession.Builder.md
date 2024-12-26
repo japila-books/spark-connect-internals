@@ -6,6 +6,6 @@
 create(): SparkSession
 ```
 
-`create` [withLocalConnectServer](SparkSession.md#withLocalConnectServer).
+`create` [runs a new Spark Connect Server](SparkSession.md#withLocalConnectServer).
 
 `create`...FIXME

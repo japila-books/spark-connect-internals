@@ -18,7 +18,7 @@ main(
   args: Array[String]): Unit
 ```
 
-`main` runs a new [Spark Connect Server](SparkSession.md#withLocalConnectServer) to connect locally.
+`main` [runs a new Spark Connect Server](SparkSession.md#withLocalConnectServer).
 
 `main` [builds a SparkConnectClient](../client/SparkConnectClient.md#build).
 
