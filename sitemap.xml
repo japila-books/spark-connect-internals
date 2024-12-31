@@ -2,190 +2,190 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/logging/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/overview/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/spark-connect-shell/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/client/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/client/Builder/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/client/Configuration/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/client/CustomSparkConnectBlockingStub/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/client/SparkConnectClient.Builder/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/client/SparkConnectClient/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/ConnectRepl/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/DataFrameWriterImpl/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/DataFrameWriterV2Impl/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/DataStreamWriter/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/Dataset/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/MergeIntoWriterImpl/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/RemoteStreamingQuery/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/SessionCleaner/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/SparkSession.Builder/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/jvm/SparkSession/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/CommandPlugin/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/ExecuteHolder/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/ExecuteThreadRunner/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/ExpressionPlugin/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/RelationPlugin/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SessionHolder/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SimpleSparkConnectService/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectAddArtifactsHandler/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectAnalyzeHandler/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectExecutePlanHandler/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectExecutionManager/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectInterceptorRegistry/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectPlanExecution/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectPlanner/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectPlugin/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectReleaseSessionHandler/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectServer/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectServerListener/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectServerTab/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectService/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/SparkConnectSessionManager/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/configuration-properties/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/sql/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/sql/SQLExecution/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/sql/SparkSession/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-31</lastmod>
     </url>
 </urlset>
