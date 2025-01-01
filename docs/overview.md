@@ -2,8 +2,7 @@
 
 **Spark Connect** is a client-server interface for Apache Spark for remote connectivity to Spark clusters (using the DataFrame API and unresolved logical plans as the protocol based on [gRPC Java]({{ grpc.docs }})).
 
-??? note "Apache Spark 3.4"
-    Spark Connect has been available since [Apache Spark 3.4](https://issues.apache.org/jira/browse/SPARK-39375).
+Spark Connect is available since [Apache Spark 3.4]({{ spark.jira }}/SPARK-39375).
 
 The [Spark Connect server](server/SparkConnectServer.md) can be started using `sbin/start-connect-server.sh` shell script.
 
