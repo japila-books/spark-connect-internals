@@ -123,6 +123,9 @@ extra:
     github: https://github.com/apache/spark/tree/master
     jira: https://issues.apache.org/jira/browse
 
+extra_css:
+  - css/code.css
+
 nav:
   - index.md
   - Internals:
