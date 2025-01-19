@@ -117,3 +117,23 @@ handleCommandPlugin(
 ```
 
 `handleCommandPlugin`...FIXME
+
+### handleMlCommand { #handleMlCommand }
+
+```scala
+handleMlCommand(
+  command: proto.MlCommand,
+  responseObserver: StreamObserver[proto.ExecutePlanResponse]): Unit
+```
+
+`handleMlCommand` [handles the ML command](../ml/MLHandler.md#handleMlCommand) (with this [SessionHolder](#sessionHolder)).
+
+`handleMlCommand` requests this [ExecuteHolder](#executeHolder) for the [ExecuteEventsManager](ExecuteHolder.md#eventsManager) to [postFinished](ExecuteEventsManager.md#postFinished).
+
+In the end, `handleMlCommand` registers a response with the result of [executing the ML command](../ml/MLHandler.md#handleMlCommand).
+
+---
+
+`handleMlCommand` is used when:
+
+* `SparkConnectPlanner` is requested to [process](#process) a `ML_COMMAND` command

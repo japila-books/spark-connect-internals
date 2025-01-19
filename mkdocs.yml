@@ -137,3 +137,4 @@ nav:
   - ... | pyspark/**.md
   - ... | sql/**.md
   - ... | jvm/**.md
+  - ... | ml/**.md
