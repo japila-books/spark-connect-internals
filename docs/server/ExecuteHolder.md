@@ -10,3 +10,22 @@
 `ExecuteHolder` is created when:
 
 * `SparkConnectExecutionManager` is requested to [create an ExecuteHolder](SparkConnectExecutionManager.md#createExecuteHolder)
+
+## runGrpcResponseSender { #runGrpcResponseSender }
+
+```scala
+runGrpcResponseSender(
+  responseSender: ExecuteGrpcResponseSender[proto.ExecutePlanResponse]): Unit
+runGrpcResponseSender(
+  responseSender: ExecuteGrpcResponseSender[proto.ExecutePlanResponse],
+  lastConsumedResponseId: String): Unit
+```
+
+`runGrpcResponseSender`...FIXME
+
+---
+
+`runGrpcResponseSender` is used when:
+
+* `SparkConnectExecutePlanHandler` is requested to [handle a ExecutePlanRequest](SparkConnectExecutePlanHandler.md#handle)
+* `SparkConnectReattachExecuteHandler` is requested to [handle a ReattachExecuteRequest](SparkConnectReattachExecuteHandler.md#handle)

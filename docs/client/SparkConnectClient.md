@@ -64,3 +64,15 @@ In the end, `releaseSession` requests this [CustomSparkConnectBlockingStub](#bst
 `releaseSession` is used when:
 
 * `SparkSession` is requested to [close](../sql/SparkSession.md#close)
+
+## Execute Plan { #execute }
+
+```scala
+execute(
+  plan: proto.Plan): CloseableIterator[proto.ExecutePlanResponse]
+```
+
+`execute`...FIXME
+
+??? note "Not used"
+    `execute` does not seem used.
