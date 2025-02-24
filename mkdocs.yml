@@ -7,7 +7,7 @@ repo_name: spark-connect-internals
 repo_url: https://github.com/japila-books/spark-connect-internals
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2024 Jacek Laskowski
+copyright: Copyright &copy; 2025 Jacek Laskowski
 
 theme:
   name: material
@@ -102,7 +102,7 @@ extra:
     spark_core: https://books.japila.pl/apache-spark-internals
     spark_sql: https://books.japila.pl/spark-sql-internals
   grpc:
-    version: 1.56.0
+    version: 1.67.1
     docs: https://grpc.io/docs/languages/java/
     api: https://grpc.github.io/grpc-java/javadoc
   java:
@@ -119,8 +119,8 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@jaceklaskowski
   spark:
-    version: 4.0.0-SNAPSHOT
-    github: https://github.com/apache/spark/tree/master
+    version: 4.0.0-rc1
+    github: https://github.com/apache/spark/blob/v4.0.0-rc1
     jira: https://issues.apache.org/jira/browse
 
 extra_css:
