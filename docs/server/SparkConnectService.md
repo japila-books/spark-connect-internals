@@ -51,13 +51,32 @@ startGRPCService(): Unit
 
 Configuration Property | Default Value
 -----------------------|--------------
- [spark.connect.grpc.debug.enabled](configuration-properties.md#spark.connect.grpc.debug.enabled) | `true`
+ [spark.connect.grpc.debug.enabled](configuration-properties.md#spark.connect.grpc.debug.enabled) | `false`
+ [spark.connect.grpc.binding.address](configuration-properties.md#spark.connect.grpc.binding.address) | &nbsp;
  [spark.connect.grpc.binding.port](configuration-properties.md#spark.connect.grpc.binding.port) | `15002`
  [spark.connect.grpc.maxInboundMessageSize](configuration-properties.md#spark.connect.grpc.maxInboundMessageSize) | `128 * 1024 * 1024`
 
-`startGRPCService` builds a `NettyServerBuilder` with the `spark.connect.grpc.binding.port` and a [SparkConnectService](SparkConnectService.md).
+`startGRPCService` [creates a SparkConnectService](#creating-instance) (with the value of  [spark.connect.grpc.debug.enabled](configuration-properties.md#spark.connect.grpc.debug.enabled)).
 
-`startGRPCService` [registers interceptors](SparkConnectInterceptorRegistry.md#chainInterceptors).
+With [spark.connect.grpc.debug.enabled](configuration-properties.md#spark.connect.grpc.debug.enabled) enabled, `startGRPCService` creates a `ProtoReflectionService`.
+
+`startGRPCService` [creates configured ServerInterceptors](SparkConnectInterceptorRegistry.md#createConfiguredInterceptors) (based on [spark.connect.grpc.interceptor.classes](configuration-properties.md#spark.connect.grpc.interceptor.classes)).
+
+With [spark.connect.grpc.binding.address](configuration-properties.md#spark.connect.grpc.binding.address) defined, `startGRPCService` prints out the following INFO message to the logs:
+
+```text
+start GRPC service at: [hostname]
+```
+
+`startGRPCService` builds a `NettyServerBuilder` for the hostname (if defined) and [spark.connect.grpc.binding.port](configuration-properties.md#spark.connect.grpc.binding.port).
+
+`startGRPCService` adds the `SparkConnectService`.
+
+With [authenticate token](Connect.md#getAuthenticateToken) defined, `startGRPCService` creates a [PreSharedKeyAuthenticationInterceptor](PreSharedKeyAuthenticationInterceptor.md).
+
+`startGRPCService` [registers all the configured interceptors](SparkConnectInterceptorRegistry.md#chainInterceptors).
+
+In debug mode ([spark.connect.grpc.debug.enabled](configuration-properties.md#spark.connect.grpc.debug.enabled) enabled), `startGRPCService` adds the `ProtoReflectionService`.
 
 `startGRPCService` [builds the server](#server) and starts it.
 

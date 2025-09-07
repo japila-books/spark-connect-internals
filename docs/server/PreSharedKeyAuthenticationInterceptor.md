@@ -1,0 +1,3 @@
+# PreSharedKeyAuthenticationInterceptor
+
+`PreSharedKeyAuthenticationInterceptor` is...FIXME

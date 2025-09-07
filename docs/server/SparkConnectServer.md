@@ -23,14 +23,19 @@ main(
 Starting Spark session.
 ```
 
-`main` creates a `SparkSession`.
+`main` creates a `SparkSession` with the following config options:
+
+Config | Value
+-|-
+ [spark.sql.artifact.isolation.enabled]({{ book.spark_sql }}/configuration-properties/#spark.sql.artifact.isolation.enabled) | `true`
+ [spark.sql.artifact.isolation.alwaysApplyClassloader]({{ book.spark_sql }}/configuration-properties/#spark.sql.artifact.isolation.alwaysApplyClassloader) | `true`
 
 `main` [starts a SparkConnectService](SparkConnectService.md#start).
 
 `main` prints out the following INFO message to the logs:
 
 ```text
-Spark Connect server started.
+Spark Connect server started at: [host]:[port]
 ```
 
 In the end, `main` is paused until the [SparkConnectService](SparkConnectService.md#server) is terminated.
