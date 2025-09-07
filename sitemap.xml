@@ -125,6 +125,10 @@
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
+         <loc>https://books.japila.pl/spark-connect-internals/server/Connect/</loc>
+         <lastmod>2025-09-07</lastmod>
+    </url>
+    <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/ConnectProgressExecutionListener/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
@@ -150,6 +154,10 @@
     </url>
     <url>
          <loc>https://books.japila.pl/spark-connect-internals/server/ExpressionPlugin/</loc>
+         <lastmod>2025-09-07</lastmod>
+    </url>
+    <url>
+         <loc>https://books.japila.pl/spark-connect-internals/server/PreSharedKeyAuthenticationInterceptor/</loc>
          <lastmod>2025-09-07</lastmod>
     </url>
     <url>
