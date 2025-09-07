@@ -7,7 +7,7 @@
 * Apache Spark applications (as a [Spark driver plugin](SparkConnectPlugin.md#driverPlugin))
 * On command line as a [SparkConnectServer](SparkConnectServer.md) standalone application
 
-Right after having been [started](#start), `SparkConnectService` [posts a SparkListenerConnectServiceStarted event](#postSparkConnectServiceStarted) with all the network connectivity information.
+Upon [start](#start), `SparkConnectService` [posts a SparkListenerConnectServiceStarted event](#postSparkConnectServiceStarted) with all the network connectivity information.
 
 ## Creating Instance
 

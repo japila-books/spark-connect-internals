@@ -5,11 +5,13 @@
 `SparkConnectPlanner` takes the following to be created:
 
 * <span id="sessionHolder"> [SessionHolder](SessionHolder.md)
+* <span id="executeHolderOpt"> [ExecuteHolder](ExecuteHolder.md) (default: undefined)
 
 `SparkConnectPlanner` is created when:
 
 * `ExecuteThreadRunner` is requested to [handle a command](ExecuteThreadRunner.md#handleCommand)
 * `SparkConnectPlanExecution` is requested to [handle a plan](SparkConnectPlanExecution.md#handlePlan)
+* `MLUtils` is requested to `parseRelationProto`
 * `SparkConnectAnalyzeHandler` is requested to [process an analyze plan request](SparkConnectAnalyzeHandler.md#process)
 
 ## transformRelation { #transformRelation }
