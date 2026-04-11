@@ -3,18 +3,18 @@ site_url: https://books.japila.pl/spark-connect-internals
 site_author: Jacek Laskowski
 site_description: Demystifying inner-workings of Spark Connect
 
-repo_name: spark-connect-internals
+repo_name: GitHub
 repo_url: https://github.com/japila-books/spark-connect-internals
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2025 Jacek Laskowski
+copyright: Copyright &copy; 2025-2026 Jacek Laskowski
 
 theme:
   name: material
   language: en
   icon:
     logo: material/book-open-page-variant
-    repo: fontawesome/brands/github
+    repo: material/github
   features:
     # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-annotations
     - content.code.annotate
@@ -84,7 +84,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
-  - awesome-pages
+  # https://lukasgeiter.github.io/mkdocs-awesome-nav/migration-v3/
+  - awesome-nav
   - macros
   # https://squidfunk.github.io/mkdocs-material/reference/#built-in-meta-plugin
   - meta
@@ -129,8 +130,10 @@ extra:
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@jaceklaskowski
   spark:
-    version: 4.0.1
-    github: https://github.com/apache/spark/blob/v4.0.1
+    version: 4.1.1
+    commit: https://github.com/apache/spark/commit
+    docs: https://spark.apache.org/docs/4.1.1
+    github: https://github.com/apache/spark/blob/v4.1.1
     jira: https://issues.apache.org/jira/browse
   tags:
     DeveloperApi: developerapi
@@ -143,20 +146,5 @@ validation:
   absolute_links: warn
   unrecognized_links: warn
 
-# Sections with ... under awesome-pages plugin's control
-# https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
-# Review corresponding .pages for setup
-nav:
-  - index.md
-  - Features:
-    - reattachable-plan-execution.md
-  - Internals:
-    - overview.md
-    - logging.md
-    - spark-connect-shell.md
-  - ... | server/**.md
-  - ... | client/**.md
-  - ... | pyspark/**.md
-  - ... | sql/**.md
-  - ... | jvm/**.md
-  - ... | ml/**.md
+# nav section is in the separate file ".nav.yml" managed by Awesome Nav for MkDocs plugin
+# https://lukasgeiter.github.io/mkdocs-awesome-nav/features/nav/

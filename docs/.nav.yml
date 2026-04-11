@@ -1,0 +1,16 @@
+# https://lukasgeiter.github.io/mkdocs-awesome-nav/
+nav:
+  - index.md
+  - Features:
+    - reattachable-plan-execution.md
+  - Internals:
+    - overview.md
+    - logging.md
+    - spark-connect-shell.md
+    - "*"
+  - Server: server
+  - Client: client
+  - Python Client: pyspark
+  - Spark SQL: sql
+  - JVM Client: jvm
+  - Spark MLlib: ml
